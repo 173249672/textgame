@@ -16,16 +16,16 @@
             background: url("img/timg.jpg");
         }
         .box{
-            width: 100px;
-            height: 150px;
+            width: 20px;
+            height: 25px;
             background: url("img/jiangluo.png") no-repeat;
             background-size: contain;
             position: absolute;
             left: 0;
             top: 0;
             text-align: center;
-            line-height: 65px;
-            font-size: 40px;
+            line-height: 12px;
+            font-size: 12px;
         }
         .open{
             width: 200px;
@@ -307,7 +307,7 @@ window.onload=function(){
         },
         checkPos: function (l) {
             return this.lefts.some(function (value, index) {
-                return l > value - 100 && l < value + 100;
+                return l > value - 20 && l < value + 20;
             })
         },
         checkPoss:function (n) {
